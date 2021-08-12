@@ -150,6 +150,7 @@ p {
   .flexContainer {
     display: column;
     width: 90%;
+    justify-content: space-evenly;
   }
   .grid-container {
     width: 90%;
@@ -162,5 +163,9 @@ p {
     "item4"
     "item5"
     "item6"
+    ;
+  }
+  .item1 .item2 .item3 .item4 .item5 .item6 {
+    align-items: center;
   }
 }
