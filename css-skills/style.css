@@ -83,8 +83,9 @@ p {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 30% 60%;
-  grid-template-rows: 30% 60%;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 6rem;
   justify-items: center;
   grid-template-areas: 
   "item1 item2"
@@ -104,6 +105,9 @@ p {
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.button a:hover {
+  background-color: #ADBB0D;
 }
 .footernavigation {
   display: flex;
