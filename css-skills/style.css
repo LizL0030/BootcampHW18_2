@@ -111,15 +111,19 @@ p {
 }
 .footernavigation {
   display: flex;
-  align-items: center;
   background-color: #ADBB0D;
   height: 150px;
   margin-top: 36px;
-  justify-content: right;
-}
-.footerItem1 {
-  padding: 36px;
   align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  font-size: 18px;
+  color:white;
+  padding: 36px;
+}
+.linkedinImage {
+  padding: 36px;
 }
 
 @media only screen and (max-width: 1200px) {
