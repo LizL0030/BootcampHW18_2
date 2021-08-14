@@ -103,7 +103,7 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.button a:hover {
+.button:hover {
   background-color: #ADBB0D;
 }
 .footernavigation {
