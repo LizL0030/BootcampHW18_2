@@ -156,4 +156,9 @@ p {
     "item6"
     ;
   }
+  .grid-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+  }
 }
